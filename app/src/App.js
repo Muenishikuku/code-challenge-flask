@@ -10,7 +10,7 @@ import './App.css';
 function App() {
     let [restaurants, setRestaurants] = useState([]);
     let [pizzas, setPizzas] = useState([]);
-    let [res_piz, setResPiz] = useState([]);
+    let [res_piz, setResPiz] = useState([]);                                                                                                              
 
     useEffect(() => {
         fetch('http://127.0.0.1:5500/restaurants')
